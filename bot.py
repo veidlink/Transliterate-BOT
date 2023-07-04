@@ -13,6 +13,8 @@ dp = Dispatcher(bot)
 
 transliteration_dict = {
     ' ': ' ',
+    '-':'-',
+    '--':'--'
     'А': 'A',
     'Б': 'B',
     'В': 'V',
